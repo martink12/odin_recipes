@@ -1,0 +1,21 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    list-style-position: inside;
+}
+
+ol, ul {
+    text-align: left;
+    margin-left: 10%;
+    line-height: 2.5em;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.links {
+    display: block;
+    margin: 1em;
+}
