@@ -1,21 +1,42 @@
+html {
+    box-sizing: border-box;
+    background-color: #edd0a3;
+}
+
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: center;
-    list-style-position: inside;
+}
+
+hr {
+    margin: 2em;
+    border: 0.09em solid black;
 }
 
 ol, ul {
+    list-style-position: inside;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 2.5%;
     line-height: 2.5em;
 }
 
-h1 {
-    text-align: center;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+h3 {
+    margin: 1.5em;
 }
 
 .links {
     display: block;
     margin: 1em;
+}
+
+.ingredients {
+    background: #fc9861;
+    display: flex;
+}
+
+.ingredients div {
+    padding: 1em;
+    border: 0.25em solid #e66b44;
+    gap: 8px;
+    flex: 1;
 }
